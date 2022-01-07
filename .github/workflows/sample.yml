@@ -12,6 +12,5 @@ jobs:
     steps:
       - name: execute echo command
         run: echo "Hello World!"
-      - uses: actions/checkout@v1
-      - run: cat sample.txt
+      - uses: actions/checkout@v2
       - run: cat sample.txt
